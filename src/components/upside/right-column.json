@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_upside_right_columns",
+  "info": {
+    "displayName": "Right Column"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "RightColumnContent": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workouts",
+  "info": {
+    "singularName": "workout",
+    "pluralName": "workouts",
+    "displayName": "Workouts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UserId": {
+      "type": "integer"
+    },
+    "ShowcaseId": {
+      "type": "string"
+    },
+    "Completed": {
+      "type": "boolean"
+    },
+    "Thumbnail": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "ContinuousId": {
+      "type": "string"
+    }
+  }
+}

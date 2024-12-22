@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_page_items_page_items",
+  "info": {
+    "displayName": "Page Items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "AbsHeader": {
+      "type": "string"
+    },
+    "AbsAnswer": {
+      "type": "text"
+    },
+    "CardioHeader": {
+      "type": "string"
+    },
+    "CardioAnswer": {
+      "type": "text"
+    },
+    "LegsHeader": {
+      "type": "string"
+    },
+    "LegsAnswer": {
+      "type": "text"
+    },
+    "StressHeader": {
+      "type": "string"
+    },
+    "StressAnswer": {
+      "type": "text"
+    },
+    "Subheader": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

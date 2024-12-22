@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_workout_types_workout_types",
+  "info": {
+    "displayName": "Workout Types"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "DoItDifferent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-items.page-items"
+    },
+    "Upside": {
+      "type": "component",
+      "repeatable": false,
+      "component": "upside.upside-section"
+    },
+    "OneHundredSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "rotator.rotator"
+    },
+    "Godfather": {
+      "type": "component",
+      "repeatable": false,
+      "component": "godfather.godfather"
+    },
+    "WorkoutSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "carousel.description"
+    },
+    "PricingSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.pricing"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

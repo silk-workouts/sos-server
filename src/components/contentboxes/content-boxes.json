@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contentboxes_content_boxes",
+  "info": {
+    "displayName": "Content Boxes"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "string"
+    }
+  }
+}

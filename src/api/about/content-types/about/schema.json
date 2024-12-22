@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "FirstColumnSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "two-columns.two-columns"
+    },
+    "FirstParallaxSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "parallax.parallax-section"
+    },
+    "SecondColumnSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "two-columns.two-columns"
+    },
+    "SecondParallaxSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "parallax.parallax-section"
+    },
+    "Test": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_two_columns_two_columns",
+  "info": {
+    "displayName": "TwoColumns"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Content": {
+      "type": "blocks"
+    },
+    "ContnetHighlight": {
+      "type": "blocks"
+    }
+  }
+}

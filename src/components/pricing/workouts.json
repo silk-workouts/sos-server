@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pricing_workouts",
+  "info": {
+    "displayName": "Workouts"
+  },
+  "options": {},
+  "attributes": {
+    "Workout": {
+      "type": "string"
+    }
+  }
+}

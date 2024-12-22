@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_upside_upside_sections",
+  "info": {
+    "displayName": "Upside Section"
+  },
+  "options": {},
+  "attributes": {
+    "LeftColumn": {
+      "displayName": "LeftColumn",
+      "type": "component",
+      "repeatable": false,
+      "component": "upside.left-column"
+    },
+    "RightColumnContent": {
+      "displayName": "Right Column",
+      "type": "component",
+      "repeatable": false,
+      "component": "upside.right-column"
+    }
+  }
+}

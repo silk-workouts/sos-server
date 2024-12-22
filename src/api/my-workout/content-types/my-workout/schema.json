@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "my_workouts",
+  "info": {
+    "singularName": "my-workout",
+    "pluralName": "my-workouts",
+    "displayName": "MyWorkout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UserId": {
+      "type": "integer"
+    },
+    "WorkoutTitle": {
+      "type": "text"
+    },
+    "WorkoutIds": {
+      "type": "json"
+    },
+    "Thumbnail": {
+      "type": "string"
+    },
+    "UrlTitle": {
+      "type": "string"
+    }
+  }
+}

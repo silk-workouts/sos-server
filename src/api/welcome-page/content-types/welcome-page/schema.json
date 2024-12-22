@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "welcome_pages",
+  "info": {
+    "singularName": "welcome-page",
+    "pluralName": "welcome-pages",
+    "displayName": "Welcome Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Salutation": {
+      "type": "string"
+    },
+    "WelcomeContentIntro": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "WelcomeVideo": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    },
+    "VideoContent": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "MobileWelcomeVideo": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    }
+  }
+}

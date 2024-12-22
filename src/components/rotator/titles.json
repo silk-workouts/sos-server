@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_rotator_titles",
+  "info": {
+    "displayName": "Titles"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

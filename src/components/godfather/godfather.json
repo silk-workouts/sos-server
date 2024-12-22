@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_godfather_godfathers",
+  "info": {
+    "displayName": "Godfather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "LeftColumnContent": {
+      "type": "blocks"
+    },
+    "RightColumnContent": {
+      "type": "blocks"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "bgImgMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

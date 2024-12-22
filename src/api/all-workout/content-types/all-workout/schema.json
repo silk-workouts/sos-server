@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_workouts",
+  "info": {
+    "singularName": "all-workout",
+    "pluralName": "all-workouts",
+    "displayName": "All Workouts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "WorkoutPrograms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workout-programs.workout-programs"
+    }
+  }
+}

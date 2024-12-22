@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_career_accomplishments_accomplishments",
+  "info": {
+    "displayName": "Accomplishments"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    }
+  }
+}

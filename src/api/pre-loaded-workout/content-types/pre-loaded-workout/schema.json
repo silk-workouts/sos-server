@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pre_loaded_workouts",
+  "info": {
+    "singularName": "pre-loaded-workout",
+    "pluralName": "pre-loaded-workouts",
+    "displayName": "Pre Loaded Workouts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PreLoadedWorkouts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "workout-programs.workout-programs"
+    }
+  }
+}

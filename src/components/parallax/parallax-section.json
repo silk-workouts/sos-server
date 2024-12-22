@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_parallax_parallax_sections",
+  "info": {
+    "displayName": "Parallax Section"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

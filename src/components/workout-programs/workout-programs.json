@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_workout_programs_workout_programs",
+  "info": {
+    "displayName": "Workout Programs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "WorkoutTitle": {
+      "type": "string"
+    },
+    "FolderId": {
+      "type": "biginteger"
+    },
+    "ShowcaseId": {
+      "type": "biginteger"
+    },
+    "ContinuousId": {
+      "type": "biginteger"
+    }
+  }
+}

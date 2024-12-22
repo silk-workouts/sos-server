@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_pricing_pricings",
+  "info": {
+    "displayName": "Pricing"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "PricingListHeader": {
+      "type": "string"
+    },
+    "Benefits": {
+      "displayName": "Subscribing Benefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.subscribing-benefits"
+    },
+    "Workouts": {
+      "displayName": "Workouts",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.workouts"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "Duration": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

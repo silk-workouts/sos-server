@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_upside_left_columns",
+  "info": {
+    "displayName": "LeftColumn"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "LeftColumnContent": {
+      "type": "blocks"
+    },
+    "RightColumnContent": {
+      "type": "blocks"
+    }
+  }
+}
